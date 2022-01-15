@@ -31,7 +31,7 @@
 	
 	<repositories>
 	<repository>
-	<id>nexus</id>
+	<id>nexus1</id>
 	
 	<url>http://3.110.156.196:9980/myDemoNexus/repository/RemoteRepo/</url>	
 	</repository>

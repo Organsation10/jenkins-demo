@@ -116,7 +116,7 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus1</id>
+	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.110.156.196:9980/myDemoNexus/repository/facebook-snapshot/</url>
 	    </snapshotRepository>

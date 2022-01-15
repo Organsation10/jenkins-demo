@@ -28,8 +28,19 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+	<servers>
+	<server>
+	<url>http://3.110.156.196:9980/myDemoNexus/repository/RemoteRepo/</url>	
+	</server>
+	</servers>
 
 	<dependencies>
+		
+		<dependency>
+  <groupId>com.mss</groupId>
+  <artifactId>mail</artifactId>
+  <version>1.0.0</version>
+</dependency>
 		
 		<dependency>
 			<groupId>org.json</groupId>

@@ -33,17 +33,17 @@
 	<repository>
 	<id>nexus1</id>
 	
-	<url>http://3.110.156.196:9980/myDemoNexus/repository/RemoteRepo/</url>	
+	<url>http://3.110.156.196:9980/myDemoNexus/repository/com.remoteRepo_01.demo/</url>	
 	</repository>
 	</repositories>  
 
 	<dependencies>
 		
 		<dependency>
-  <groupId>com.mss</groupId>
-  <artifactId>mail</artifactId>
+  <groupId>com.remoteRepo_01.demo</groupId>
+  <artifactId>remoteRepoAFID</artifactId>
   <version>1.0.0</version>
-</dependency>  
+</dependency>
 		
 		<dependency>
 			<groupId>org.json</groupId>

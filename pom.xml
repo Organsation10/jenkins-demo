@@ -21,29 +21,29 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.110.108.193:9000/</sonar.host.url>
+	<!--	<sonar.host.url>http://3.110.108.193:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.password>admin</sonar.password>  -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
 	
-	<repositories>
+<!--	<repositories>
 	<repository>
 	<id>nexus1</id>
 	
 	<url>http://3.110.156.196:9980/myDemoNexus/repository/com.remoteRepo_01.demo/</url>	
 	</repository>
-	</repositories>  
+	</repositories>   -->  
 
 	<dependencies>
 		
-		<dependency>
+	<!--	<dependency>
   <groupId>com.remoteRepo_01.demo</groupId>
   <artifactId>remoteRepoAFID</artifactId>
   <version>1.0.0</version>
-</dependency>
+</dependency>  -->
 		
 		<dependency>
 			<groupId>org.json</groupId>
@@ -107,7 +107,7 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
+<!--	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus1</id>
@@ -121,7 +121,7 @@
 	      <url>http://3.110.156.196:9980/myDemoNexus/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>   
+	</distributionManagement>  -->   
 	
 	<build>
 		<finalName>maven-web-application</finalName>

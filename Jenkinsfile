@@ -7,20 +7,20 @@ maven 'maven3.8.2'
 
 }
 
-triggers{
+/*triggers{
 pollSCM('* * * * *')
 }
 
 options{
 timestamps()
 buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5'))
-}
+}*/
 
 stages{
 
   stage('CheckOutCode'){
     steps{
-    git branch: 'development', credentialsId: '957b543e-6f77-4cef-9aec-82e9b0230975', url: 'https://github.com/devopstrainingblr/maven-web-application-1.git'
+    git credentialsId: '62e94569-f3f3-4a0f-a8ee-4fa167756095', url: 'https://github.com/Organsation10/jenkins-demo.git'
 	
 	}
   }
@@ -53,7 +53,7 @@ stages{
   */
 }//Stages Closing
 
-post{
+/*post{
 
  success{
  emailext to: 'devopstrainingblr@gmail.com,mithuntechnologies@yahoo.com',
@@ -69,7 +69,7 @@ post{
           replyTo: 'devopstrainingblr@gmail.com'
  }
  
-}
+}*/
 
 
 }//Pipeline closing

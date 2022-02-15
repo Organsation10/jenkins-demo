@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.110.166.154:9000/</sonar.host.url>
+	<!--	<sonar.host.url>http://3.110.108.193:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>  
+		<sonar.password>admin</sonar.password>  -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -107,21 +107,21 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
+<!--	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus1</id>
-	      <name>facebook repo</name>
-	      <url>http://3.110.166.154:8081/repository/facebook/</url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus1</id>
-	      <name>facebook snapshot</name>
-	      <url>http://3.110.166.154:8081/repository/facebook-sanpshot/</url>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.110.156.196:9980/myDemoNexus/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>   
+	</distributionManagement>  -->   
 	
 	<build>
 		<finalName>maven-web-application</finalName>
